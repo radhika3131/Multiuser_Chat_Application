@@ -17,6 +17,8 @@
 
 This is a multi-user chat application implemented in Java, featuring a user login and register page, a dashboard screen, a chat interface, and various other functionalities. The application utilizes SQL database for user data storage, socket programming with server socket for communication, handshaking process for establishing connections, multithreading for handling multiple clients, message broadcasting, error and exception handling, reading/writing data on stream, private messaging, and password hashing for enhanced security.
 
+
+
 Features
 
 User Registration: New users can create an account by providing a unique username, password, and other required information.
@@ -46,6 +48,10 @@ Private Messaging: Users can send private messages to specific users within the 
 Password Hashing: User passwords are hashed and securely stored in the database to protect sensitive information.
 
 
+
+
+
+
 Dependencies
 
 The project has the following dependencies:
@@ -53,6 +59,9 @@ The project has the following dependencies:
 Java 8 or above
 JDBC (Java Database Connectivity) library
 GUI library (e.g. Swing)
+
+
+
 
 Usage
 
