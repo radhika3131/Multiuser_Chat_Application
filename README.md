@@ -19,6 +19,7 @@ This is a multi-user chat application implemented in Java, featuring a user logi
 
 Features
 User Registration: New users can create an account by providing a unique username, password, and other required information.
+
 Login: Registered users can securely log in using their credentials.
 Dashboard: Upon successful login, users are directed to a dashboard screen displaying chat rooms.
 Chat Interface: Users can join chat rooms and communicate with other users in real-time using a user-friendly chat interface.
