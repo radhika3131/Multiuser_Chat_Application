@@ -1,4 +1,4 @@
-# Multiuser_Chat_Application
+###Multiuser_Chat_Application
 
 
 
@@ -19,40 +19,38 @@ This is a multi-user chat application implemented in Java, featuring a user logi
 
 
 
-Features
+## Features
 
-User Registration: New users can create an account by providing a unique username, password, and other required information.
+#User Registration: New users can create an account by providing a unique username, password, and other required information.
 
-Login: Registered users can securely log in using their credentials.
+#Login: Registered users can securely log in using their credentials.
 
-Dashboard: Upon successful login, users are directed to a dashboard screen displaying chat rooms.
+#Dashboard: Upon successful login, users are directed to a dashboard screen displaying chat rooms.
 
-Chat Interface: Users can join chat rooms and communicate with other users in real-time using a user-friendly chat interface.
+#Chat Interface: Users can join chat rooms and communicate with other users in real-time using a user-friendly chat interface.
 
-SQL Database Integration: User data, including usernames, passwords, and other details, are stored securely in an SQL database.
+#SQL Database Integration: User data, including usernames, passwords, and other details, are stored securely in an SQL database.
 
-Socket Programming and Server Socket: The application utilizes socket programming and server socket for establishing connections and enabling communication between clients and the server.
+#Socket Programming and Server Socket: The application utilizes socket programming and server socket for establishing connections and enabling communication between clients and the server.
 
-Handshaking Process: A handshaking process is implemented for establishing secure connections between clients and the server.
+#Handshaking Process: A handshaking process is implemented for establishing secure connections between clients and the server.
 
-Multithreading: The server employs multithreading to handle multiple client connections concurrently.
+#Multithreading: The server employs multithreading to handle multiple client connections concurrently.
 
-Message Broadcasting: Messages sent by users are broadcasted to all participants in the respective chat room.
+#Message Broadcasting: Messages sent by users are broadcasted to all participants in the respective chat room.
 
-Error and Exception Handling: The application includes robust error and exception handling mechanisms to handle unexpected situations gracefully.
+#Error and Exception Handling: The application includes robust error and exception handling mechanisms to handle unexpected situations gracefully.
 
-Stream I/O: The application implements read/write operations on streams to transmit messages between clients and the server.
+#Stream I/O: The application implements read/write operations on streams to transmit messages between clients and the server.
 
-Private Messaging: Users can send private messages to specific users within the same chat room for more personalized communication.
+#Private Messaging: Users can send private messages to specific users within the same chat room for more personalized communication.
 
-Password Hashing: User passwords are hashed and securely stored in the database to protect sensitive information.
-
-
+#Password Hashing: User passwords are hashed and securely stored in the database to protect sensitive information.
 
 
 
 
-Dependencies
+##Dependencies
 
 The project has the following dependencies:
 
@@ -63,7 +61,7 @@ GUI library (e.g. Swing)
 
 
 
-Usage
+##Usage
 
 Launch the application by running the Server class to start the server.
 
